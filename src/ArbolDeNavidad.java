@@ -9,6 +9,7 @@ public class ArbolDeNavidad {
     public static void main(String[] args) {
         tree = GenerarArbol(height);
         System.out.println(tree);
+        System.out.println();
     }
 
     public static String GenerarArbol(int height){
